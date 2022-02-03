@@ -1,0 +1,8 @@
+.input__filter {
+  margin-left: 10px;
+}
+.label__filter {
+  display: flex;
+  justify-content: center;
+  color: blue;
+}

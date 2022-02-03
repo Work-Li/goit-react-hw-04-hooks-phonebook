@@ -1,0 +1,38 @@
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid blue;
+  width: 100%;
+  color: blue;
+}
+.contact__name {
+  margin-right: 20px;
+}
+
+.contact__number {
+  margin-right: 10px;
+}
+
+.btn__delete {
+  height: fit-content;
+  cursor: pointer;
+  color: blue;
+}
+
+.btn__delete:hover {
+  background-color: blue;
+  color: white;
+}
+
+.contact__list {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  border: thick double rgb(20, 30, 168);
+}
